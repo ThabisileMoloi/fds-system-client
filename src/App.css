@@ -1,4 +1,29 @@
+@media (min-width: 768px) { 
 #root{
     min-height: 100vh;
     font-family: 'Inter';
+
+    color: black;
 }
+.app{
+    display: grid;
+    grid-template-columns: 249px 1fr 1fr;
+}
+.container{
+    padding: 0;
+}
+.left {
+    display: flex;
+}
+.left > h3 {
+    padding: 0;
+    display: flex;
+}
+.outlet{
+    display: grid;
+    justify-content: start;
+    grid-template-rows: auto 1fr;
+    background-color: #F5F7FA;
+    width: 100%;
+}
+ }

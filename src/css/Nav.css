@@ -1,5 +1,8 @@
+.section, .nav-container{
+    width: 100%;
+}
 .navheader{
-    font-size: 40px;
+    font-size: 30px;
 }
 .navbar{
     display: flex;
@@ -9,7 +12,7 @@
     max-width: 250px;
     height: 100vh;
     background: #FAFBFF;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .nav-items{
@@ -32,4 +35,14 @@
 }
 li.flex{
     padding-left: 2.2rem;
+}
+.logo{
+    padding: 1rem;
+}
+.showMenuNav{
+    z-index: 10;
+    background-color: #FFF;
+}
+.heading{
+    padding: 0;
 }
